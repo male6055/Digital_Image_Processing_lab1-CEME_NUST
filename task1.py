@@ -6,7 +6,7 @@ def min_max_normalisation (my_list):
         x_scaled.append(round(scaled,3))
     return x_scaled
 
-mylist=list(map(int,input("Enter number separated by space").split()))
+mylist=list(map(int,input("Enter number separated by space: ").split()))
 x_scaled=[]
 min_max_normalisation(mylist)
 print(x_scaled)
