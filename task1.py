@@ -9,4 +9,4 @@ def min_max_normalisation (my_list):
 mylist=list(map(int,input("Enter number separated by space: ").split()))
 x_scaled=[]
 min_max_normalisation(mylist)
-print(x_scaled)
+print("Scaled List: ",x_scaled)
